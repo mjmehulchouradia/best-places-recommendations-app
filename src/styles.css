@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.heading {
+  margin-top: 1rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.096);
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px;
+}
+.city-container {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+
+  text-align: left;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+.headings {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.btns {
+  padding: 7px 15px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(25, 144, 199);
+  color: #fff;
+  font-weight: 1000;
+  transition: 0.2s ease-in;
+}
+.btns:hover {
+  background-color: rgb(13, 109, 153);
+}
+.btn-container {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+  padding: 15px 0 20px 0;
+  font-size: 20px;
+  font-size: solid;
+}
+.city-container {
+  margin: 15px 0 0 0;
+}
+.city-container ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  border-radius: 15px;
+}
+.City-name {
+  font-size: 1.2rem;
+  font-weight: 20px;
+}
+.Description {
+  margin: 5px 0;
+}
+.avg-cost {
+  margin: 5px 0;
+}
